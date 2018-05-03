@@ -1,0 +1,152 @@
+/* Overall look and style of text and navigation */
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    color: rgb(6, 70, 70);
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+    color: rgb(6, 70, 70);
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+    color: rgb(233, 250, 250);
+    border: solid white;
+    background-color: rgb(15, 190, 190);
+    padding: 5px;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    color: rgb(6, 70, 70);
+}
+
+body {
+    background-color: rgba(15, 190, 190, .2);
+}
+
+nav {
+    border: solid white;
+    background-color: rgb(15, 190, 190);
+    padding: 10px;
+    display: flex;
+}
+
+.button {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    padding: 0.5em;
+    width: 7em;
+    border-radius: 15px;
+    -moz-box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, .3);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, .3);
+    background-color: rgb(233, 250, 250);
+    margin-right: 20px;
+    text-align: center;
+}
+
+.header {
+    border: solid white;
+    background-color: rgb(15, 190, 190);
+    width: 1417px;
+}
+
+a {
+    color: darkblue;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+/* Main content styling */
+
+.textBox {
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-bottom: 2px;
+    padding-right: 20px;
+    background-color: rgba(233, 250, 250, 0.8);
+    max-width: 900px;
+    border-radius: 10px;
+    -moz-box-shadow: 3px 3px 3px 3px #0fbebe;
+    -webkit-box-shadow: 3px 3px 3px 3px #0fbebe;
+    box-shadow: 3px 3px 3px 3px #0fbebe;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+img.rachelPic {
+    max-width: 600px;
+    border: white solid;
+    -moz-box-shadow: 3px 3px 3px 3px #0fbebe;
+    -webkit-box-shadow: 3px 3px 3px 3px #0fbebe;
+    box-shadow: 3px 3px 3px 3px #0fbebe;
+}
+
+/* Styling for the main content on the page */
+
+.rowOne {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.paragraphOne {
+    flex: 2;
+}
+
+.rachelPic {
+    flex: 1;
+}
+
+/* CSS for the picture gallery */
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+img.galleryPic {
+    width: 300px;
+    border: white solid;
+    -moz-box-shadow: 3px 3px 3px 3px #0fbebe;
+    -webkit-box-shadow: 3px 3px 3px 3px #0fbebe;
+    box-shadow: 3px 3px 3px 3px #0fbebe;
+}
+
+.caption {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    color: rgb(6, 70, 70);
+    padding-top: 3px;
+}
+
+/* Gallery layout for screens below 900 px */
+
+@media (min-width: 900px) {
+    .pictures {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+footer {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    color: rgb(6, 70, 70);
+    background-color: white;
+    text-align: center;
+    padding-top: 1px;
+    clear: both;
+}
