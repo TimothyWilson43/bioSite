@@ -134,8 +134,8 @@ figcaption {
 
 /* Gallery layout for screens below 900 px */
 
-@media (min-width: 900px) {
-    .Pictures {
+@media (min-width: 950px) {
+    .pictures {
         display: flex;
         justify-content: space-between;
     }
