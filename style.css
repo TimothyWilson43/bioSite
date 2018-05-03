@@ -110,26 +110,11 @@ img.rachelPic {
 
 /* CSS for the picture gallery */
 
-.Pictures {
+.pictures {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.picOne {
-    flex: 1;
-}
-
-.picTwo {
-    flex: 1;
-}
-
-.picThree {
-    flex: 1;
-}
-
-.picFour {
-    flex: 1;
+    justify-content: space-around;
+    text-align: center;
 }
 
 img.galleryPic {
@@ -144,6 +129,7 @@ figcaption {
     font-family: 'Quicksand', sans-serif;
     font-weight: 300;
     color: rgb(6, 70, 70);
+    padding-top: 10px;
 }
 
 /* Gallery layout for screens below 900 px */
